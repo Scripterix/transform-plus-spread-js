@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: rgb(17, 88, 240);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: rgb(17, 88, 240);
+}
+
+h1 {
+  line-height: 3rem;
+}
+
+.circle:before {
+  content: ' \25CF';
+  font-size: 200px;
+}
+
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
